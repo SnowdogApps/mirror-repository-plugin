@@ -1,0 +1,18 @@
+{
+  "type": "composer-plugin",
+  "name": "snowdogapps/repo-plugin",
+  "require": {
+    "composer-plugin-api": "~1.0"
+  },
+  "require-dev": {
+    "composer/composer": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Snowdog\\Composer\\": "src"
+    }
+  },
+  "extra": {
+    "class": "Snowdog\\Composer\\Plugin"
+  }
+}
