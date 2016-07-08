@@ -42,7 +42,7 @@ class Plugin implements PluginInterface
         }
 
         if (!$repository) {
-            $io->writeError('<warning>Mirror repository ' . $managedRepository . ' not found in configuration. Snowdog mirror repository plugin disabled. See documentation for details</warningi>');
+            $io->writeError('<warning>Mirror repository ' . $managedRepository . ' not found in configuration. Snowdog mirror repository plugin disabled. See documentation for details</warning>');
             return;
         } else {
             $io->write('<info>Found repository plugin is active for ' . $managedRepository . '</info>');
