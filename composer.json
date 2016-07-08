@@ -1,6 +1,6 @@
 {
   "type": "composer-plugin",
-  "name": "snowdogapps/repo-plugin",
+  "name": "snowdog/mirror-repository-plugin",
   "require": {
     "composer-plugin-api": "~1.0"
   },
